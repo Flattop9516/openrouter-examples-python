@@ -9,6 +9,7 @@ load_dotenv()
 template = """Question: {question}
 
 Answer: Let's think step by step."""
+#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
 
 prompt = PromptTemplate(template=template, input_variables=["question"])
 
